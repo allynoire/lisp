@@ -32,7 +32,7 @@ $ lisp "(let x 2) (let y (add x x x)) (write y)"
 6
 ```
 
-Evaluating defined variable.
+Evaluating defined variable with `eval`.
 
 ```shell
 $ lisp "(let x (quote (add 1 2 3))) (write x) (write (eval x))"
